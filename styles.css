@@ -39,7 +39,7 @@
     height: 50vh;
 
     /* border: 2px solid green; */
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .productos__titulo {
@@ -63,8 +63,8 @@
     width: 100%;
     height: 50vh;
 
-    /* border: 2px solid crimson;
-    background-color: burlywood; */
+    border: 1px solid crimson;
+    /* background-color: burlywood; */
 }
 
 .formulario__titulo {
@@ -78,7 +78,7 @@
     flex-direction: column;
 
     height: 200px; /* Aquí creo que debe ser: auto */
-    margin: 20px 10px 20px 10px;
+    margin: 20px 10px 0px 10px;
     padding: 5px;
     gap: 15px;
 
@@ -148,4 +148,25 @@
 
 .footer span {
     font-weight: bold;
+}
+
+
+/* Desktop: */
+@media (min-width:768px){
+    .principal {
+        display: flex;
+        flex-direction: row;
+        /* height: auto; */
+        /* background-color: rgb(255, 223, 82); */
+    }
+
+    .productos {
+        width: 70%;
+        height: 100vh;
+    }
+
+    .formulario {
+        width: 30%;
+        height: 100vh;
+    }
 }
