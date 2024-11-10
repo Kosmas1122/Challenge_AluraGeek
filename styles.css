@@ -13,7 +13,7 @@
     background-color: rgb(42, 165, 161);
     width: 100%;
     height: 60px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .encabezado__emojis {
@@ -35,9 +35,10 @@
 
 .productos {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    background-color: antiquewhite;
 }
 
 .productos__titulo {
@@ -54,19 +55,53 @@
     height: 200px; /* Aquí creo que debe ser: auto */
     margin: 20px 10px 20px 10px;
 
-
     border: 1px solid gray;
 }
 
 .formulario {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
 
-    border: 2px solid crimson;
+    /* border: 2px solid crimson;
+    background-color: burlywood; */
 }
 
 .formulario__titulo {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 40px;
+}
+
+.formulario__data {
+    display: flex;
+    flex-direction: column;
+
+    height: 200px; /* Aquí creo que debe ser: auto */
+    margin: 20px 10px 20px 10px;
+    padding: 5px;
+    gap: 15px;
+
+    /* border: 1px solid gray; */
+}
+
+.formulario__input {
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.formulario__botones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.formulario__boton {
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: normal;
 }

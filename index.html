@@ -17,6 +17,7 @@
 
         <!-- Cuerpo Principal de la App: -->
         <main class="principal">
+
             <!-- Sección Productos: -->
             <section class="productos">
                 <h2 class="productos__titulo"> Mis Productos: </h2>
@@ -24,9 +25,19 @@
             </section>
 
             <!-- Sección de Formulario: -->
-            <form action="" class="formulario">
+            <section class="formulario">
                 <h2 class="formulario__titulo"> Agregar producto: </h2>
-            </form>
+                <form action="" class="formulario__data" method="get">
+                    <input class="formulario__input" type="text" name="nombre" placeholder="Nombre producto..." required>  
+                    <input class="formulario__input" type="text" name="precio" placeholder="Precio..." required>  
+                    <input class="formulario__input" type="text" name="imagen" placeholder="Imagen..." required>  
+                    <div class="formulario__botones">
+                        <button class="formulario__boton"> Enviar </button>
+                        <button class="formulario__boton"> Limpiar </button>
+                    </div>
+                </form>
+            </section>
+            
         </main>
     </body>
 </html>
