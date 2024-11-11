@@ -36,7 +36,7 @@
 
 .productos {
     width: 100%;
-    height: 50vh;
+    height: auto;
 
     /* border: 2px solid green; */
     /* background-color: antiquewhite; */
@@ -52,11 +52,78 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+
     width: auto;
-    height: 200px; /* Aquí creo que debe ser: auto */
+    height: auto; /* Aquí creo que debe ser: auto */
     margin: 20px 10px 20px 10px;
 
     border: 1px solid gray;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    height: 250px;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px gray;
+    border: 1px solid darkgray;
+    background-color: rgb(245, 245, 245);
+    margin: 15px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px gray;
+}
+
+.card__img {
+    width: 90%;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 5px;
+
+    /* border: 1px solid red; */
+}
+
+.card__valor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+
+}
+
+.card__trash {
+    width:28px;
+    height:32px;
+    background-image: url(./images/SolidTrashCan_White.svg);
+    background-size: cover;
+}
+
+.card__trash:hover {
+    background-image: url(./images/SolidTrashCan_Black.svg);
+}
+
+.card__boton {
+    border: none;
 }
 
 .formulario {
