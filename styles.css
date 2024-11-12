@@ -5,6 +5,9 @@
 }
 
 .encabezado {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,7 +16,8 @@
     
     background-color: rgb(42, 165, 161);
     width: 100%;
-    height: 60px;
+    /* height: 60px; */
+    height: 6vh;
     /* border: 1px solid black; */
 }
 
@@ -35,11 +39,15 @@
 }
 
 .productos {
+    /* position: relative;
+    top: 6vh; */
+    z-index: 1;
     width: 100%;
     height: auto;
-
-    /* border: 2px solid green; */
-    /* background-color: antiquewhite; */
+    /* overflow-y: scroll; */
+    margin-bottom: 30px;
+    border: 2px solid green;
+    background-color: antiquewhite;
 }
 
 .productos__titulo {
@@ -53,13 +61,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
-
+    gap: 10px;
+    list-style-type: none;
     width: auto;
     height: auto; /* Aquí creo que debe ser: auto */
     margin: 20px 10px 20px 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 
-    border: 1px solid gray;
+    border: 1px solid red;
 }
 
 .card {
@@ -68,13 +78,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-    height: 250px;
-    width: 40%;
+    height: auto;
+    width: 45%;
     border-radius: 20px;
     box-shadow: 0px 0px 3px gray;
     border: 1px solid darkgray;
     background-color: rgb(245, 245, 245);
-    margin: 15px;
+    margin: 5px;
 }
 
 .card:hover {
@@ -82,8 +92,7 @@
 }
 
 .card__img {
-    width: 90%;
-    height: 100vh;
+    width: 85%;
     border: 1px solid black;
     border-radius: 15px;
     margin: 10px;
@@ -112,8 +121,8 @@
 }
 
 .card__trash {
-    width:28px;
-    height:32px;
+    width:22px;
+    height:26px; /* +4 de width */
     background-image: url(./images/SolidTrashCan_White.svg);
     background-size: cover;
 }
@@ -127,8 +136,12 @@
 }
 
 .formulario {
+    position: relative;
+    /* top: 60px; */
+    top: 6vh;
     width: 100%;
-    height: 50vh;
+    height: 55vh;
+    /* margin: 20px 10px 20px 10px; */
 
     border: 1px solid crimson;
     /* background-color: burlywood; */
@@ -175,13 +188,18 @@
 }
 
 .footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
+    height: 8vh;
+    
     font-family: Arial, Helvetica, sans-serif;
 
     background-color: aqua;
@@ -228,12 +246,23 @@
     }
 
     .productos {
+        position: relative;
+        top: 6vh;
         width: 70%;
-        height: 100vh;
+        height: 86vh;
+        overflow-y: scroll;
     }
 
     .formulario {
         width: 30%;
-        height: 100vh;
+        height: 86vh;
+    }
+
+    .productos__cards {
+        gap: 20px;
+    }
+
+    .card {
+        width: 25%;
     }
 }
