@@ -8,6 +8,12 @@ async function listarProductos() {
 
     console.log(conexionConvertida);
 
+    return conexionConvertida;
+
 }
 
-listarProductos(); // Se llama la función para ejecutarla.
+// listarProductos(); // Se llama la función para ejecutarla.
+
+export const conexionAPI = {
+    listarProductos
+}
