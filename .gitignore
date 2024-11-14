@@ -1,3 +1,6 @@
 node_modules/
 productosPrueba.txt
 db.json
+*.drawio
+*.bkp
+*.dtmp
