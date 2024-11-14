@@ -26,12 +26,12 @@
             <!-- Sección de Formulario: -->
             <section class="formulario">
                 <h2 class="formulario__titulo"> Agregar producto: </h2>
-                <form action="" class="formulario__data" method="get">
-                    <input class="formulario__input" type="text" name="nombre" placeholder="Nombre producto..." required>  
-                    <input class="formulario__input" type="text" name="precio" placeholder="Precio..." required>  
-                    <input class="formulario__input" type="text" name="imagen" placeholder="Imagen..." required>  
+                <form class="formulario__data" data-formulario>
+                    <input class="formulario__input" type="text" name="nombre" placeholder="Nombre producto..." required data-nombre>  
+                    <input class="formulario__input" type="text" name="precio" placeholder="Precio..." required data-precio>  
+                    <input class="formulario__input" type="text" name="imagen" placeholder="Imagen..." required data-imagen>  
                     <div class="formulario__botones">
-                        <button class="formulario__boton"> Enviar </button>
+                        <input class="formulario__boton" type="submit" value="Enviar"/>
                         <button class="formulario__boton"> Limpiar </button>
                     </div>
                 </form>
