@@ -16,17 +16,6 @@ function crearCard(nombre, precio, imagen) {
         </div>
     </div>`;
     
-    /* `<div class="card">
-        <img class="card__img" src="${imagen}" alt="Imagen producto" />
-        <div class="card__info">
-            <p> ${nombre} </p>
-            <div class="card__valor">
-                <p> ${precio} </p>
-                <button class="card__boton"> <div class="card__trash"></div> </button>
-            </div>
-        </div>
-    </div>`; */
-
     return producto;
 } 
 

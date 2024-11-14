@@ -12,8 +12,6 @@ async function listarProductos() {
 
 }
 
-// listarProductos(); // Se llama la función para ejecutarla.
-
 export const conexionAPI = {
     listarProductos
 }
