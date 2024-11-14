@@ -6,12 +6,29 @@ async function listarProductos() {
     const conexion = await fetch("http://localhost:3001/productos");
     const conexionConvertida = conexion.json();
 
-    console.log(conexionConvertida);
+    //console.log(conexionConvertida);
 
     return conexionConvertida;
 
 }
 
+
+async function crearProducto(nombre, precio, imagen) {
+    const conexion = await fetch("http://localhost:3001/productos", {
+        method: "POST",
+        headers: {"content-type":"application/json"},
+        body: JSON.stringify({
+            nombre:nombre,
+            precio:precio,
+            imagen:imagen
+        })
+    }); // Se hace una petición POST.
+    
+    const conexionConvertida = conexion.json();
+    return conexionConvertida;
+}
+
+
 export const conexionAPI = {
-    listarProductos
+    listarProductos, crearProducto
 }
