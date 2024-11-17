@@ -1,7 +1,36 @@
+/* Importación de fuentes de Google: */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    /* Fuentes */
+    --fuente-titulo: "Gugi", sans-serif;
+    --fuente-normal: "Orbitron", sans-serif;
+
+    /* Paleta Colores: */
+    --color-0: #000000;
+    --color-1: #0B192C;
+    --color-2: #1E3E62;
+    --color-3: #FF6500;
+    --color-4: #524C42;
+    --color-5: #E2DFD0;
+    --color-10: #FFFFFF;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    font-family: var(--fuente-normal);
+    font-weight: 400;
+    font-size: 10px; /* Para que 1rem = 10px */
 }
 
 .encabezado {
@@ -11,22 +40,21 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     gap: 5px;
-    
-    background-color: rgb(42, 165, 161);
+    background-color: var(--color-4);
     width: 100%;
-    /* height: 60px; */
     height: 6vh;
-    /* border: 1px solid black; */
 }
 
 .encabezado__emojis {
-    font-size:30px;
+    font-size: 2.5rem;
 }
 
 .encabezado__titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fuente-titulo);
+    font-size: 2.2rem;
+    color: var(--color-3);
     margin-left: 30px;
 }
 
@@ -39,19 +67,16 @@
 }
 
 .productos {
-    /* position: relative;
-    top: 6vh; */
     z-index: 1;
     width: 100%;
     height: auto;
-    /* overflow-y: scroll; */
     margin-bottom: 30px;
-    border: 2px solid green;
-    background-color: antiquewhite;
+    background-color: var(--color-5);
 }
 
 .productos__titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fuente-titulo);
+    font-size: 1.8rem;
     text-align: center;
     padding-top: 40px;
 }
@@ -64,12 +89,10 @@
     gap: 10px;
     list-style-type: none;
     width: auto;
-    height: auto; /* Aquí creo que debe ser: auto */
+    height: auto;
     margin: 20px 10px 20px 10px;
     padding-top: 10px;
     padding-bottom: 20px;
-
-    border: 1px solid red;
 }
 
 .card {
@@ -81,19 +104,19 @@
     height: auto;
     width: 45%;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px gray;
-    border: 1px solid darkgray;
-    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 3px var(--color-4);
+    border: 1px solid var(--color-4);
+    background-color: var(--color-10);
     margin: 5px;
 }
 
 .card:hover {
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 3px 3px 20px var(--color-2);
 }
 
 .card__img {
     width: 85%;
-    border: 1px solid black;
+    border: 1px dashed black;
     border-radius: 15px;
     margin: 10px;
     padding: 5px;
@@ -107,8 +130,7 @@
     width: 90%;
     padding: 5px;
     margin-bottom: 5px;
-
-    /* border: 1px solid red; */
+    font-size: 1.2rem;
 }
 
 .card__valor {
@@ -117,6 +139,8 @@
     justify-content: space-between;
     align-items: baseline;
     width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
 
 }
 
@@ -137,32 +161,28 @@
 
 .formulario {
     position: relative;
-    /* top: 60px; */
     top: 6vh;
     width: 100%;
     height: 55vh;
-    /* margin: 20px 10px 20px 10px; */
-
-    border: 1px solid crimson;
-    /* background-color: burlywood; */
+    background-color: var(--color-2);
 }
 
 .formulario__titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fuente-titulo);
+    font-size: 1.8rem;
     text-align: center;
     padding-top: 40px;
+    color: var(--color-5);
 }
 
 .formulario__data {
     display: flex;
     flex-direction: column;
 
-    height: 200px; /* Aquí creo que debe ser: auto */
+    height: 200px;
     margin: 20px 10px 0px 10px;
     padding: 5px;
     gap: 15px;
-
-    /* border: 1px solid gray; */
 }
 
 .formulario__input {
@@ -183,8 +203,14 @@
     height: 35px;
     width: 100px;
     border-radius: 15px;
-    font-size: large;
-    font-weight: normal;
+    box-shadow: 2px 2px 3px var(--color-1);
+    font-family: var(--fuente-normal);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.formulario__boton:hover {
+    background-color: var(--color-3);
 }
 
 .footer {
@@ -195,14 +221,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
     width: 100%;
-    /* height: 80px; */
     height: 8vh;
-    
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
-    background-color: aqua;
+    font-family: var(--fuente-normal);
+    font-size: 1.2rem;
+    background-color: var(--color-4);
 }
 
 .footer__logo{
@@ -211,38 +237,43 @@
     justify-content: center;
     align-items: baseline;
     gap: 5px;
-    
-    /* font-size: medium; */
 }
 
 .footer__emoji {
-    font-size:15px;
+    font-size:1.5rem;
 }
 
 .footer__titulo {
+    font-size: 1.4rem;
     font-weight: bold;
+    color: var(--color-3);
 }
 
 .footer__creador {
-    font-size:12px;
+    font-size: 1.0rem;
+    color: var(--color-5);
 }
 
 .footer__cliente {
-    font-size:12px;
+    font-size: 1.0rem;
+    color: var(--color-3);
 }
 
 .footer span {
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
 
 /* Desktop: */
 @media (min-width:768px){
+    html {
+        font-size: 14px; /* Para que 1rem = 14px */
+    }
+
     .principal {
         display: flex;
         flex-direction: row;
-        /* height: auto; */
-        /* background-color: rgb(255, 223, 82); */
     }
 
     .productos {
