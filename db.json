@@ -23,6 +23,12 @@
       "nombre": "Purificador de agua",
       "precio": "34",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_602871-MCO75509050370_042024-F.webp"
+    },
+    {
+      "id": "efeb",
+      "nombre": "Altavoz Bluetooth con sonido HD",
+      "precio": "$23",
+      "imagen": "https://m.media-amazon.com/images/I/81djh1gfUwL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
     }
   ]
 }

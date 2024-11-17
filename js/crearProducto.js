@@ -6,7 +6,7 @@ async function crearProducto(evento) {
     evento.preventDefault();
 
     const nombre = document.querySelector("[data-nombre]").value;
-    const precio = document.querySelector("[data-precio]").value;
+    const precio = "$" + document.querySelector("[data-precio]").value;
     const imagen = document.querySelector("[data-imagen]").value;
 
     await conexionAPI.enviarProducto(nombre, precio, imagen);
