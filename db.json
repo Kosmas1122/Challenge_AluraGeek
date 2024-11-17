@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": "c108",
+      "nombre": "Tech Dog",
+      "precio": "$699",
+      "imagen": "https://http2.mlstatic.com/D_Q_NP_2X_742086-CBT77918385658_082024-V.webp"
+    },
+    {
+      "id": "ca32",
+      "nombre": "Rastreador Boomtag Negro",
+      "precio": "$149",
+      "imagen": "https://www.inkanta.com.co/media/catalog/product/cache/498610b488c09ccbda865aca21aa64dd/6/4/64891.jpg"
+    },
+    {
+      "id": "9a99",
+      "nombre": "Capitán América 1",
+      "precio": "$50",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp"
+    }
+  ]
+}
