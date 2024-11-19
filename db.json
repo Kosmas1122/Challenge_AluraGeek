@@ -23,6 +23,114 @@
       "nombre": "Altavoz Bluetooth con sonido HD",
       "precio": "$23",
       "imagen": "https://m.media-amazon.com/images/I/81djh1gfUwL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "2ee7",
+      "nombre": "Lámpara Snitch PT Harry Potter",
+      "precio": "$107",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/11/col3661.jpg"
+    },
+    {
+      "id": "6544",
+      "nombre": "Figura Emperor Palpatine",
+      "precio": "$120",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/09/889698712361.jpg"
+    },
+    {
+      "id": "7e26",
+      "nombre": "Figura Grogu Con Mariposa Funko Pop! Star Wars",
+      "precio": "$108",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/09/889698545297.jpg"
+    },
+    {
+      "id": "63ed",
+      "nombre": "Alcancia Totoro PT Studio Ghibli Anime",
+      "precio": "$80",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/06/col3222.jpg"
+    },
+    {
+      "id": "fdd8",
+      "nombre": "Lampara Totoro con Hoja PT Studio Ghibli Anime",
+      "precio": "$80",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/01/col2809.jpg"
+    },
+    {
+      "id": "3318",
+      "nombre": "Caja Musical Harry Potter PT Fantasia",
+      "precio": "$53",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/08/col3342.jpg"
+    },
+    {
+      "id": "16b4",
+      "nombre": "Mug Tallado Hogwarts PT Harry Potter Fantasía",
+      "precio": "$40",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/06/8ca2d58717002da57b6bc29f896b8554c2f27db3-1718321651-col3180.jpg"
+    },
+    {
+      "id": "5e9e",
+      "nombre": "Figura Harry Potter With The Sorcerer´s Stone Funko Pop Harry Potter Fantasía 20th Anniversary",
+      "precio": "$82",
+      "imagen": "https://toogeek.co/wp-content/uploads/2021/11/889698573665.jpg"
+    },
+    {
+      "id": "e7e0",
+      "nombre": "Carro Ecto-1 PT Ghostbusters Ciencia Ficción Carro Blanco clasico cazafantasmas",
+      "precio": "$269",
+      "imagen": "https://toogeek.co/wp-content/uploads/2023/04/col2128.jpg"
+    },
+    {
+      "id": "e68b",
+      "nombre": "Figura Batman Funko Pop! DC Comics 85 Años Deluxe 521",
+      "precio": "$188",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/08/889698806817.jpg"
+    },
+    {
+      "id": "77eb",
+      "nombre": "Llavero The Joker Funko Pop! DC Comics Patchwork",
+      "precio": "$44.9",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/08/889698809085.jpg"
+    },
+    {
+      "id": "6e33",
+      "nombre": "Figura Young Luke Skywalker Funko Pop! Star Wars 633",
+      "precio": "$80.9",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/09/889698675857.jpg"
+    },
+    {
+      "id": "c9b5",
+      "nombre": "Figura Imperial Stormtrooper Hasbro Star Wars 5\" con 2 accesorios",
+      "precio": "$71.9",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/07/630509984596.jpg"
+    },
+    {
+      "id": "e4d1",
+      "nombre": "Figura The Mandalorian Hasbro Star Wars 5\" con 2 accesorios",
+      "precio": "$71.8",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/07/630509984602.jpg"
+    },
+    {
+      "id": "a960",
+      "nombre": "Set Libros Secrets of the Galaxy Chronicle Books Star Wars",
+      "precio": "$321.2",
+      "imagen": "https://toogeek.co/wp-content/uploads/2024/05/9781452159256.jpg"
+    },
+    {
+      "id": "55fe",
+      "nombre": "Figura Ahsoka Funko POP Clone Wars Star Wars",
+      "precio": "$80.2",
+      "imagen": "https://toogeek.co/wp-content/uploads/2022/02/889698520232.jpg"
+    },
+    {
+      "id": "c04b",
+      "nombre": "Figura Boba Fett Funko POP The Mandalorian Star Wars",
+      "precio": "$76.3",
+      "imagen": "https://toogeek.co/wp-content/uploads/2021/05/889698545242.jpg"
+    },
+    {
+      "id": "0cbc",
+      "nombre": "LLavero Casa Targaryen Tallado PT Juego de Tronos Series",
+      "precio": "$26.9",
+      "imagen": "https://toogeek.co/wp-content/uploads/2020/12/llav0237.jpeg"
     }
   ]
 }
